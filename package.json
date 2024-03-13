@@ -1,5 +1,5 @@
 {
-    "name": "chrome-har-capturer",
+    "name": "har-capturer",
     "author": "Andrea Cardaci <cyrus.and@gmail.com>",
     "license": "MIT",
     "description": "Capture HAR files from a headless Chrome instance",
@@ -10,17 +10,17 @@
         "protocol",
         "headless"
     ],
-    "homepage": "https://github.com/cyrus-and/chrome-har-capturer",
+    "homepage": "https://github.com/dunkbing/chrome-har-capturer",
     "version": "0.14.0",
     "repository": {
         "type": "git",
-        "url": "git://github.com/cyrus-and/chrome-har-capturer.git"
+        "url": "git://github.com/dunkbing/chrome-har-capturer.git"
     },
     "bugs": {
-        "url": "http://github.com/cyrus-and/chrome-har-capturer/issues"
+        "url": "http://github.com/dunkbing/chrome-har-capturer/issues"
     },
     "bin": {
-        "chrome-har-capturer": "./bin/cli.js"
+        "har-capturer": "./bin/cli.js"
     },
     "files": [
         "bin",
@@ -37,6 +37,7 @@
         "commander": "2.x.x"
     },
     "devDependencies": {
+        "@types/chrome-remote-interface": "^0.31.14",
         "eslint": "^8.8.0",
         "har-validator": "5.x.x",
         "http2": "3.x.x",
